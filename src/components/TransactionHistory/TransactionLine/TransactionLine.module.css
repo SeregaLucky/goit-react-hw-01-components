@@ -1,0 +1,3 @@
+.line:nth-child(even) {
+  background: #ecf1f4;
+}

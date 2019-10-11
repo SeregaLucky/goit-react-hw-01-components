@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+}
+.item {
+  /* flex: 1 1 60px; */
+  width: 60px;
+  padding: 6px;
+  text-align: center;
+}
+.span {
+  display: block;
+}
+.span:not(:last-child) {
+  margin: 4px;
+}

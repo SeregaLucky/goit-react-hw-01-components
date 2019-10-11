@@ -1,0 +1,45 @@
+.profileSection {
+  padding: 60px 0;
+  background: #e7ecf2;
+  display: flex;
+  justify-content: center;
+}
+.profile {
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+.avatar {
+  border-radius: 50%;
+  margin: 0 0 20px 0;
+}
+.text:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  background: #f3f6f9;
+}
+.item {
+  flex: 1 0 33.3333%;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #e4e9f0;
+}
+.item:not(:last-child) {
+  border-right: 1px solid #e4e9f0;
+}
+.textSpan {
+  display: block;
+  text-transform: capitalize;
+}
